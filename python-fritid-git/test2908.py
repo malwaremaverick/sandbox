@@ -1,6 +1,5 @@
-i = 1
+minListe = ["epler", "bananer", "druer"]
 
-while i < 6:
-    i += 1
+print("Listen har", len(minListe), "elementer!")
 
-    print(i)
+print("Du har valgt", minListe[0], "!")
