@@ -28,3 +28,6 @@ if (navn1.lower() == navn2.lower()):
     print("Navnene er like")
 else:
     print("Navnene er ikke like")
+    
+number = 4
+ny_variabel = True if number > 0 else False
