@@ -1,0 +1,30 @@
+[
+    {
+        "navn": "Merkur",
+        "tyngdekraft": 3.7
+    },
+    {
+        "navn": "Venus",
+        "tyngdekraft": 8.87
+    },
+    {
+        "navn": "Jorden",
+        "tyngdekraft": 9.807
+    },
+    {
+        "navn": "Mars",
+        "tyngdekraft": 3.721
+    },
+    {
+        "navn": "Jupiter",
+        "tyngdekraft": 24.79
+    },
+    {
+        "navn": "Saturn",
+        "tyngdekraft": 10.44
+    },
+    {
+        "navn": "Uranus",
+        "tyngdekraft": 11.15
+    }
+]
