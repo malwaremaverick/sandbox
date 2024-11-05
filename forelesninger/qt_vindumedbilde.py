@@ -15,8 +15,15 @@ class Vindu(QWidget):
         label1.setText("Hello World!")
 
         label_img = QLabel()
-        pixmap = QPixmap('https://picsum.photos/200/300')
+        pixmap = QPixmap()
+        pixmap.load('bilde.jpg')
+        pixmap = pixmap.scaled(200, 200)
         label_img.setPixmap(pixmap)
+        
+        layout = QVBoxLayout()
+        self.setLayout(layout)
+        layout.addWidget(label1)
+        layout.addWidget(label_img)
 
 
 app = QApplication(sys.argv)
@@ -24,3 +31,4 @@ vindu = Vindu()
 vindu.show()
 
 sys.exit(app.exec())
+
